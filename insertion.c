@@ -26,7 +26,7 @@ void main()
     printf("Enter the array elements:\n");
     for(i=0;i<n;i++)
     {
-      a[i]=rand()%50;
+      a[i]=rand()%1000;
       printf("%d\n",a[i]);
     }
     start=clock();
