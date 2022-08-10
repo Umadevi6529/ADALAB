@@ -17,7 +17,6 @@ int max(int a,int b) {
 }
 void main() {
 	int p[10][10]=0,n,e,u,v,i,j;
-	clrscr();
 	printf("\n Enter the number of vertices:");
 	scanf("%d",&n);
 	printf("\n Enter the number of edges:");
@@ -40,5 +39,4 @@ void main() {
 		   printf("%d\t",p[i][j]);
 		printf("\n");
 	}
-	getch();
 }
